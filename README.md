@@ -1,7 +1,7 @@
 # Fault-Tolerant MapReduce Engine with Raft Consensus
 
 ## 🚀 Overview
-This project implements a modular distributed system that integrates the Raft consensus protocol with a MapReduce pipeline. It simulates leader election, log replication, crash recovery, and snapshot-based restoration with microsecond-level benchmarking. Designed for fault tolerance, performance profiling, and recruiter-facing clarity.
+This project implements a modular distributed system that integrates the Raft consensus protocol with a MapReduce pipeline. It simulates leader election, log replication, crash recovery, and snapshot-based restoration with microsecond-level benchmarking. Designed for fault tolerance, performance profiling. 
 
 ## 🧠 Features
 - Raft-based leader election and log replication
@@ -18,10 +18,11 @@ This project implements a modular distributed system that integrates the Raft co
 - **Snapshot restore**: 323 µs
 
 ## 🛠️ Technologies Used
-- C++17
+- C++
 - Chrono library (for benchmarking)
 - JSON (via `nlohmann/json.hpp`)
 - Modular components: `RaftNode`, `Worker`, `Mapper`, `Reducer`, `SnapshotManager`
+- Custom test harnesses for unit testing modules (test_raft.cpp, test_worker.cpp, etc.)
 
 ## 📦 How to Build and Run
 ```bash

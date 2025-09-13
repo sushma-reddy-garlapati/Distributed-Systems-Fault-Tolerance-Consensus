@@ -35,6 +35,21 @@ g++ -std=c++17 main.cpp \
 
 ./mapreduce_main
 ```
+
+## 🧪 Running Tests
+To run unit tests:
+```bash
+g++ -std=c++17 test_raft.cpp -o test_raft
+./test_raft
+```
+## 📦 Installation
+```bash
+git clone https://github.com/sushma-reddy-garlapati/Distributed-Systems-Fault-Tolerance-Consensus.git
+cd Distributed-Systems-Fault-Tolerance-Consensus
+g++ -std=c++17 main.cpp ... -o mapreduce_main
+./mapreduce_main
+```
+
 ## 📁 Project Structure
 ```text
 .

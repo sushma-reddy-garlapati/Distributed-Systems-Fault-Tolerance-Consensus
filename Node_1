@@ -1,0 +1,14 @@
+[
+    {
+        "key": "log_entry",
+        "value": "Mapped chunk_0 with 5 pairs"
+    },
+    {
+        "key": "log_entry",
+        "value": "Reduced hello => hello → 2"
+    },
+    {
+        "key": "log_entry",
+        "value": "Recovery initiated"
+    }
+]

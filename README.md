@@ -34,7 +34,7 @@ g++ -std=c++17 main.cpp \
     -o mapreduce_main
 
 ./mapreduce_main
-
+```
 ## 📁 Project Structure
 ```text
 .
@@ -48,3 +48,4 @@ g++ -std=c++17 main.cpp \
 ├── test_*.cpp           # Unit tests for each module
 ├── main.cpp             # Entry point
 ├── README.md            # Project documentation
+```
